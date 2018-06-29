@@ -15,14 +15,14 @@ using IBM.Watson.DeveloperCloud.Connection;
 public class Photo : MonoBehaviour {
     public string txt;
     byte[] imageByteArray;
-private const string CLOUD_NAME = "dylrioik3";
-    private const string MICROSOFT_VISION_KEY = "6714dabe90b44cc4a60166a1088d7244";
+private const string CLOUD_NAME = "you cloudinary name";
+    private const string MICROSOFT_VISION_KEY = "your microsoft vision key";
     private const string MICROSOFT_VISION_URL = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/describe?maxCandidates=1";
     private GameObject status;
     private GameObject statusbg;
-    private const string UPLOAD_PRESET_NAME = "qylb43yg";
-private const string CLOUDINARY_API_KEY = "284551392584861";
-private const string CLOUDINARY_SIGNATURE = "K5IE-CzFZS5HCZw_DHz5G6MVQVo";
+    private const string UPLOAD_PRESET_NAME = "upload preset name";
+private const string CLOUDINARY_API_KEY = "your cloudinary api key";
+private const string CLOUDINARY_SIGNATURE = "your cloudinary signature";
 private string imageURl;
 private GameObject scanningObject;
 public GameObject buttonObject;
@@ -32,12 +32,12 @@ public GameObject t2;
     public GameObject meaningBg1;
 private const string BASE_URL = "http://www.google.com/searchbyimage?hl=ru&image_url=";
 private string wordsToSearch;
-private const string GOOGLE_API_KEY = "AIzaSyD7SHc_jTdUmsYteNArB2f7ME9LXzoTM-g";
-private const string GOOGLE_CUSTOM_ENGINE_ID = "002966606582515264909:wuqx1wxqewe";
+private const string GOOGLE_API_KEY = "your google API key";
+private const string GOOGLE_CUSTOM_ENGINE_ID = "your google custom engine ID";
 private const string GOOGLE_SEARCH_URL = "https://www.googleapis.com/customsearch/v1?cx=" +
 		GOOGLE_CUSTOM_ENGINE_ID+"&key="+GOOGLE_API_KEY+"&cref&q=";
-private const string OXFORD_API_KEY = "63c0e519bf3923479a4f666f1d27e947";
-	private const string OXFORD_APP_ID = "d866d9df";
+private const string OXFORD_API_KEY = "your oxford API key";
+	private const string OXFORD_APP_ID = "your oxford app ID";
     public AudioSource _audio;
     private const string OXFORD_SEACRH_URL = "https://od-api.oxforddictionaries.com/api/v1/entries/en/{0}/definitions";
 	// Use this for initialization
